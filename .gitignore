@@ -53,3 +53,23 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# .NET specific
+bin/
+obj/
+*.user
+*.suo
+*.cache
+.vs/
+.vscode/
+*.log
+*.tmp
+
+# AutoClick specific
+debug_screenshots/
+config.json
+templates/
+
+# Temporary files
+*.temp
+*~
